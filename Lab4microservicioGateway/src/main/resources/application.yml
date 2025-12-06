@@ -8,14 +8,14 @@ spring:
       discovery:
         locator:
           enabled: true
-    routes:
-      - id: greet-path
-        uri: lb://GREETING-MICROSERVICE
-        predicates:
-#          - Path=/greet/**
-          - Path=/greeting-service/**
-        filters:
-          - StripPrefix=1
+          lower-case-service-id: true
+      routes:
+        - id: greet-path
+          uri: lb://GREETING-MICROSERVICE
+          predicates:
+            - Path=/greeting-service/**
+          filters:
+            - StripPrefix=1
 eureka:
   client:
     service-url:

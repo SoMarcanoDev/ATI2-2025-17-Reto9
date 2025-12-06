@@ -5,6 +5,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lab4microserviciosEureka/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/lab4microserviciosEureka/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab4microservicioGateway/ati2microservicio/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab4microservicioEureka/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab4microservicio/ati2microservicio/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab4microservicio/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab4microservicioGateway/pom.xml" />
       </list>
     </option>
   </component>
